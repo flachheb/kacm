@@ -73,7 +73,7 @@
 						</a>
 					</div>
 					<div class="col xl2 l2 m2 s4 item">
-							<a href="#">
+							<a href="#" data-activates="slide-out" class="button-collapse popup_mainmenu">
 								<p class="z-depth-1 hoverable">
 									<img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/sections.png" alt="sections">
 									<span>الفروع</span>
@@ -108,22 +108,21 @@
 			</div>
 
 			<!-- popup sections -->
-			<ul id="slide-out" class="side-nav">
-	    <li><div class="user-view">
-	      <div class="background">
-	        <img src="images/office.jpg">
-	      </div>
-	      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
-	      <a href="#!name"><span class="white-text name">John Doe</span></a>
-	      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-	    </div></li>
-	    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-	    <li><a href="#!">Second Link</a></li>
-	    <li><div class="divider"></div></li>
-	    <li><a class="subheader">Subheader</a></li>
-	    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-	  </ul>
-	  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+			<nav id="slide-out" class="side-nav ul-popup_mainmenu z-depth-5">
+		    <ul class="row">
+					<?php for ($i=0; $i <10 ; $i++) {  ?>
+						<li class="col xl3 l3 m4 s6 right">
+							<p class="hoverable">
+								<a href="#" class="center">
+									<img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/foot.png" alt="foot">
+									<br>
+									<span>كرة القدم</span>
+								</a>
+							</p>
+						</li>
+					<?php } ?>
+		    </ul>
+		  </nav>
 			<!-- / popup sections -->
 
 		</header><!-- .site-header -->
