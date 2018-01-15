@@ -41,15 +41,15 @@ get_header(); ?>
 							} // end while
 						} // end if
 						?>
-
+						
 							</div>
 						</div>
 
-				<div class="col l4 m5 s12 left">
-						<?php get_template_part( 'template-parts/sidebar', 'home' ); ?>
-				</div>
+			<div class="col l4 m5 s12 left">
+					<?php get_template_part( 'template-parts/sidebar', 'home' ); ?>
+			</div>
 
-	    </div>
+    </div>
 
 
 

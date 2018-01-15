@@ -64,7 +64,7 @@
 			<div class="row menu-principal">
 				<div class="col  xl8 l10 m10 s12 offset-xl2 offset-l1 offset-m1  center">
 					<div class="col xl4 l4 m4 s12 item-large">
-						<a href="#">
+						<a href="/النادي">
 							<p class="z-depth-1 hoverable">
 								<img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/kacm.png" alt="kacm">
 								<span>نادي
@@ -97,7 +97,7 @@
 							</a>
 					</div>
 					<div class="col xl2 l2 m2 s4 item">
-							<a href="#">
+							<a href="/category/خبر">
 								<p class="z-depth-1 hoverable">
 									<img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/news.png" alt="news">
 									<span>أخبار</span>

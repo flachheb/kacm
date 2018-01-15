@@ -241,3 +241,26 @@ nav ul.nav-social a {
   -webkit-box-shadow: 0 0 20px 0 #000;
   box-shadow: 0 0 20px 0 #000;
 }
+
+/* ------- sub menu ----- */
+ul.sub_menu{
+  margin: 0;
+  padding: 0;
+  border: 1px solid #f69679;
+  border-radius: 4px;
+}
+.sub_menu li{
+  display: inline-block;
+  border-left: 1px solid #f69679;
+  padding: 5px 0;
+}
+.sub_menu li:hover, .sub_menu li.sub_menu-current{
+  background: #f69679;
+}
+.sub_menu li a{
+  color: #f69679;
+  padding: 5px 30px;
+}
+.sub_menu li:hover a, .sub_menu li.sub_menu-current a{
+  color: #bb2429;
+}
