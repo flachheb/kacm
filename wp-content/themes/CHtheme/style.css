@@ -213,21 +213,20 @@ nav ul.nav-social a {
 }
 .ul-popup_mainmenu li a{
   height: auto !important;
-  color: #444;
 }
 .ul-popup_mainmenu li span{
   font-size: 1.6rem;
-  color: #333;
+  color: #000;
 }
 .ul-popup_mainmenu li a img{
-  -ms-filter: grayscale(1);
-  -webkit-filter: grayscale(1);
-  -moz-filter: grayscale(1);
-  -o-filter: grayscale(1);
-  filter: grayscale(1);
+  -ms-filter: brightness(0);
+  -webkit-filter: brightness(0);
+  -moz-filter: brightness(0);
+  -o-filter: brightness(0);
+  filter: brightness(0);
 }
 .ul-popup_mainmenu li p{
-  border: 1px solid #444;
+  border: 1px solid #000;
   background: #fff3;
 }
 .site-header nav.ul-popup_mainmenu{
@@ -237,5 +236,8 @@ nav ul.nav-social a {
   background: -o-linear-gradient(90deg, #7A0F3B50 0, #97193350 48%);/* Opera 11.10+ */
   background: -ms-linear-gradient(90deg, #7A0F3B50 0, #97193350 48%);/* IE10+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
-  background: linear-gradient(45deg, #fff9 0, #971933cc 48%);/* W3C */
+  background: linear-gradient(45deg, #fff9 0, #ca3233aa 48%);/* W3C */
+
+  -webkit-box-shadow: 0 0 20px 0 #000;
+  box-shadow: 0 0 20px 0 #000;
 }

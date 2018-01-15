@@ -108,7 +108,7 @@
 			</div>
 
 			<!-- popup sections -->
-			<nav id="slide-out" class="side-nav ul-popup_mainmenu z-depth-5">
+			<nav id="slide-out" class="side-nav ul-popup_mainmenu">
 		    <ul class="row">
 					<?php for ($i=0; $i <10 ; $i++) {  ?>
 						<li class="col xl3 l3 m4 s6 right">
