@@ -89,7 +89,7 @@
 							</a>
 					</div>
 					<div class="col xl2 l2 m2 s4 item">
-							<a href="#">
+							<a href="/category/فيديو">
 								<p class="z-depth-1 hoverable">
 									<img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/video.png" alt="video">
 									<span>فيديو</span>

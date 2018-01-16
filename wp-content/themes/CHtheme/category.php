@@ -27,21 +27,24 @@ get_header(); ?>
 							<?php if ( have_posts() ) {
 								while ( have_posts() ) {
 									the_post();
+
+									if(in_category($_SESSION['cat'])){
 									?>
-				        <div class="card">
-				          <div class="card-image">
-				            <?php the_post_thumbnail('large'); ?>
-				            <span class="card-title"><?php the_title(); ?></span>
-				          </div>
-				          <div class="card-content">
-				            <?php the_content();  ?>
-				          </div>
-				        </div>
+						        <div class="card">
+						          <div class="card-image">
+						            <?php the_post_thumbnail('large'); ?>
+						            <span class="card-title"><?php the_title(); ?></span>
+						          </div>
+						          <div class="card-content">
+						            <?php the_content();  ?>
+						          </div>
+						        </div>
 								<?php
+							} //end if in_category
 							} // end while
 						} // end if
 						?>
-						
+
 							</div>
 						</div>
 

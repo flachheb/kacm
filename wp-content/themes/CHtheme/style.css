@@ -47,9 +47,13 @@ nav ul.nav-social a {
     padding: 0 2px;
     color: #ccc;
 }
+.menu-principal{
+  margin-bottom: 5px !important;
+}
 .menu-principal .item p, .menu-principal .item-large p{
   background-color: #f69679;
   padding: 10px;
+  margin-bottom: 0;
 }
 .menu-principal .item-large p{
   float: left;
@@ -248,19 +252,20 @@ ul.sub_menu{
   padding: 0;
   border: 1px solid #f69679;
   border-radius: 4px;
+  background: #bb2429;
 }
 .sub_menu li{
   display: inline-block;
   border-left: 1px solid #f69679;
   padding: 5px 0;
 }
-.sub_menu li:hover, .sub_menu li.sub_menu-current{
-  background: #f69679;
+.sub_menu li.sub_menu-current{
+  background: #0005;
+}
+.sub_menu li:hover{
+  background: #0003;
 }
 .sub_menu li a{
   color: #f69679;
   padding: 5px 30px;
-}
-.sub_menu li:hover a, .sub_menu li.sub_menu-current a{
-  color: #bb2429;
 }
